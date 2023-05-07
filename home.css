@@ -35,6 +35,8 @@ body {
     background-color: orange;
     color: white;
     border: none;
+    display: flex;
+    width: 100%;
 }
 
 .bannerContainer{
@@ -173,3 +175,111 @@ body {
 .footer>ul>i{
     margin: 0 20%;
 }
+
+
+
+/* REgister Screen */
+
+.registerContainer{
+    width: 100vw;
+    min-height: 80vh;
+    height: auto;
+    display: flex
+}
+
+.leftContainer{
+    width: 40%;
+    background-color: rgb(222, 136, 136);
+    padding: 2%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.leftContainer>section{
+    margin: auto;
+}
+.leftContainer>h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.leftContainer>p{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+/* register */
+.rightContainer{
+    padding: 2% 0;
+    padding-right: 15%;
+    padding-left: 10%;
+    width: 100%;
+    text-align: left;
+}   
+
+h1{
+    padding-left: 10%;
+    font-size: 30px;
+    margin-top: 10%;
+}
+
+  form {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #e9aa23;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 50%;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #dfa00c;
+  }
+  
+  .loginBtn{
+    padding: 10px 20px;
+    color:white;
+    border:none;
+    background-color: #dd5e5e;
+
+  }
+
+  .loginBtn:hover{
+    cursor: pointer;
+  }
+
+  #logoutBtn{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    display: none;
+  }
+
+  #userName{
+    margin-left: 10px;
+  }

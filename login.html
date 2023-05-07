@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skillify | Contact Us</title>
+    <title>Skillify | Login</title>
     <link rel="shortcut icon" href="/images/icon.jpeg" type="image/x-icon">
        <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -41,7 +41,39 @@
     
     <!-- Page banner and content  -->
     <main>
-        <section>
+        <section class="registerContainer">
+            <section class="leftContainer">
+                <section>
+                    <a href="/home.html">
+                        <svg class="header-logo" xmlns="http://www.w3.org/2000/svg" width="128" height="39" viewBox="0 0 128 39">
+                            <g transform="translate(0 8)">
+                              <circle cx="14" cy="14" r="14" fill="#f56962"></circle>
+                              <path d="M8.124,0a8.124,8.124,0,0,1,8.124,8.124c0,2.167,4.182,7.153,4.182,7.153s-9.986.971-12.306.971A8.124,8.124,0,0,1,8.124,0Z" transform="translate(5.57 6)" fill="#fff"></path>
+                              <text transform="translate(34 21)" font-size="28" font-family="Poppins-Medium, Poppins" font-weight="500" letter-spacing="0.03em">
+                                <tspan x="0" y="0">Skilify </tspan>
+                              </text>
+                            </g>
+                        </svg>
+                    </a>
+                </section>
+                <img src="images/banner2.png" />
+                <h2>
+                    Turn your ambition into a success story
+                </h2>
+                <p>Choose from over 100,000 online video.</p>
+            </section>
+            <section class="rightContainer">
+                <h1>Login to your account</h1>
+                <form id="login-form">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" required>
+                    
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" required>
+                    
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
         </section>
     </main>
     <!-- xxxxxxxxxx -->
@@ -111,6 +143,7 @@
             </ul>
         </section>
     </footer>
+    <script src="login.js"></script>
     <script src="home.js"></script>
 </body>
 </html>

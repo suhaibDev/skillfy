@@ -7,6 +7,7 @@
     <title>Skillify</title>
     <link rel="shortcut icon" href="/images/icon.jpeg" type="image/x-icon">
     <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <!-- Header Navbar  -->
@@ -26,9 +27,10 @@
                 </a>
             </section>
             <ul id="navList">
-                <li><a href="/home.html">Home</a></li>
+                      <li><a href="/home.html">Home</a></li>
                 <li><a href="/courses.html">Courses</a></li>
                 <li><a href="/about.html">About Us</a></li>
+                <li><a href="/contact.html">Contact</a></li>
             </ul>
              <a href="/register.html"><button id="registerBtn">Register</button></a> 
         </nav>
@@ -36,15 +38,102 @@
     
     <!-- Page banner and content  -->
     <main>
+        <!-- Banner -->
+        <section class="bannerContainer">
+            <section class="banner">
+                <section class="content">
+                    <h1>
+                        Start learning with our experts and give a new way to your career.
+                    </h1>
+                    <p>From a wide range of courses, you can select the best one for you.</p>
+                    
+                    <section>
+                        <input type="searc" placeholder="Search your favourite courses" />
+                        <i class="fa fa-search" > </i>
+                    </section>
+                </section>
+                <section class="image">
+                    <a href="#">
+                        <img id="girlImage" src="/images/hero-banner.webp" alt="girl"/>
+                    </a>
+                </section>
+            </section>
+        </section>
+
+        <!-- Categoris-->
         <section>
+            <section class="categoryHeader">
+                <h2>Choose favourite course from top categories</h2>
+                <a href="/cources.html"><button id="categoriesBtn">See All Categories</button></a> 
+            </section>
         </section>
     </main>
     <!-- xxxxxxxxxx -->
 
 
     <!-- Page footer -->
-    <footer>
-
+    <footer >
+        <section class="footerContainer">
+            <section>
+                <section>
+                    <a href="/home.html" style="display:flex; color: white; text-decoration: none; justify-content: left;">
+                        <svg class="header-logo" xmlns="http://www.w3.org/2000/svg" width="128" height="39" viewBox="0 0 128 39">
+                            <g transform="translate(0 8)">
+                              <circle cx="14" cy="14" r="14" fill="#f56962"></circle>
+                              <path d="M8.124,0a8.124,8.124,0,0,1,8.124,8.124c0,2.167,4.182,7.153,4.182,7.153s-9.986.971-12.306.971A8.124,8.124,0,0,1,8.124,0Z"
+                               transform="translate(5.57 6)" fill="#fff"></path>    
+                            </g>
+                        </svg>
+                    </a>
+                </section>
+                <p>
+                    Skillsy is an innovative and user-friendly course app designed to enhance learning experiences and provide a platform for individuals to develop and improve their skills. 
+                </p>
+            </section>
+            <section>
+                <h2>Courses</h2>
+                <ul>
+                    <li>
+                        <a href="/home">HTML</a>
+                    </li>
+                    <li>
+                        <a href="/home">CSS</a>
+                    </li>
+                    <li>
+                        <a href="/home">JavaScript</a>
+                    </li>
+                    <li>
+                        <a href="/home">C++</a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h2>Pages</h2>
+                <ul>
+                    <li>
+                        <a href="/home">Home</a>
+                    </li>
+                    <li>
+                        <a href="/home">About</a>
+                    </li>
+                    <li>
+                        <a href="/home">Courses</a>
+                    </li>
+                    <li>
+                        <a href="/home">Contact</a>
+                    </li>
+                </ul>
+            </section>
+        </section>
+        <section class="footer">
+            <p>© 2023 Skilify Education Private Limited. All rights reserved</p>
+            <ul>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"></i>
+            </ul>
+        </section>
     </footer>
 </body>
 </html>

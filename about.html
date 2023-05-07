@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skillify | About</title>
     <link rel="shortcut icon" href="/images/icon.jpeg" type="image/x-icon">
-       <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -32,23 +33,64 @@
                 <li><a href="/about.html">About Us</a></li>
                 <li><a href="/contact.html">Contact</a></li>
             </ul>
-              <a href="/register.html" style="display:flex;align-items: center;">
+            
+             <a href="/register.html" style="display:flex;align-items: center;">
                 <button id="registerBtn">Register</button>  
+                <button id="logoutBtn" onclick="logout()" style="background-color: black;">Logout</button>
                 <span id="userName"></span> 
             </a>
+           
         </nav>
     </header>
     
     <!-- Page banner and content  -->
     <main>
-        <section>
+        <section id="aboutContainer">
+            <div class="container">
+                <section id="overview">
+                  <h2>About Us</h2>
+                  <p>
+                    Skillify is a leading provider of technology courses for individuals and organizations. We specialize in offering a wide range of courses that cater to the needs of learners with varying levels of technical expertise.
+                  </p>
+                  <p>
+                    Our courses are designed to provide learners with the knowledge and skills needed to succeed in today's rapidly evolving tech landscape. We offer courses on a variety of topics, including programming, web development, data science, cybersecurity, and more
+                  </p>
+                  <p>
+                    Our team of expert instructors is made up of industry professionals with years of experience in their respective fields. They bring real-world experience to the classroom, helping learners gain practical knowledge that they can apply to their careers.
+                  </p>
+                </section>
+            
+                <section id="history">
+                  <h2>Our History</h2>
+                  <p>Skillify was founded in 2010 by a group of tech professionals who were passionate about education and training. They recognized the growing demand for technology courses and saw an opportunity to make a positive impact in the industry..</p>
+                </section>
+            
+                <section id="courses">
+                  <h2>Our Courses</h2>
+                  <p>At Tech Courses Provider, we offer a wide range of courses designed to cater to learners of all levels, from beginners to advanced professionals. Our course offerings include:</p>
+                  <ul>
+                    <li>HTML Fundamentals</li>
+                    <li>CSS Mastery</li>
+                    <li>JavaScript Essentials</li>
+                  </ul>
+                </section>
+            
+                <section id="subscribe">
+                  <h2>Subscribe to Our Newsletter</h2>
+                  <p>Stay up to date with the latest news, course releases, and special offers by subscribing to our newsletter. Enter your email address below:</p>
+                  <form id="news">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <input type="submit" value="Subscribe">
+                  </form>
+                </section>
+              </div>
         </section>
     </main>
     <!-- xxxxxxxxxx -->
 
 
     <!-- Page footer -->
-   <footer >
+    <footer >
         <section class="footerContainer">
             <section>
                 <section>
@@ -70,16 +112,16 @@
                 <h2>Courses</h2>
                 <ul>
                     <li>
-                        <a href="/home">HTML</a>
+                        <a href="https://www.w3schools.com/html/" target="_blank">HTML</a>
                     </li>
                     <li>
-                        <a href="/home">CSS</a>
+                        <a href="https://www.w3schools.com/css/" target="_blank">CSS</a>
                     </li>
                     <li>
-                        <a href="/home">JavaScript</a>
+                        <a href="https://www.w3schools.com/js/" target="_blank">JavaScript</a>
                     </li>
                     <li>
-                        <a href="/home">C++</a>
+                        <a href="https://www.w3schools.com/c++" target="_blank">C++</a>
                     </li>
                 </ul>
             </section>
@@ -87,16 +129,16 @@
                 <h2>Pages</h2>
                 <ul>
                     <li>
-                        <a href="/home">Home</a>
+                        <a href="/home.html">Home</a>
                     </li>
                     <li>
-                        <a href="/home">About</a>
+                        <a href="/about.html">About</a>
                     </li>
                     <li>
-                        <a href="/home">Courses</a>
+                        <a href="/courses.html">Courses</a>
                     </li>
                     <li>
-                        <a href="/home">Contact</a>
+                        <a href="/contact.html" >Contact</a>
                     </li>
                 </ul>
             </section>

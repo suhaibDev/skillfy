@@ -1,8 +1,12 @@
 let username = document.getElementById("userName");
 let user = JSON.parse(localStorage.getItem('user'));
+let regBtn = document.getElementById("registerBtn")
 let isLoggedIn = JSON.parse(localStorage.getItem('userLoggedIn'));
+let logoutBtn = document.getElementById("logoutBtn")
 
 username.innerText = isLoggedIn ? user.name : ""
+regBtn.style.display = isLoggedIn ? "none" : "block";
+logoutBtn.style.display = isLoggedIn ? "block" : "none";
 
 
 document.getElementById("registration-form").addEventListener("submit", function(event) {

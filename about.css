@@ -1,0 +1,33 @@
+#aboutContainer{
+    width: 100vw;
+    box-sizing: border-box;
+    min-height: 80vh;
+    padding: 4vh 0;
+    height: auto;
+  }
+
+  
+  .container {
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+  }
+  
+  form input[type="email"] {
+    width: 100%;
+  }  
+
+  #news{
+    margin: 0;
+  }
+  #news>input{
+    width: 40%;
+    display: block;
+  }
+
+  #overview, #history, #courses, #subscribe{margin: 4vh 0}
+
+  p{
+    font-size: large;
+    color: gray;
+  }

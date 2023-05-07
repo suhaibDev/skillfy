@@ -283,3 +283,119 @@ h1{
   #userName{
     margin-left: 10px;
   }
+
+  /* About */
+
+  
+
+  /* Contact */
+#courseBanner{
+    width: 100vw;
+    height: 22vh;
+    background-color: rgb(200, 206, 247);
+    padding: 2vh 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+}
+
+#courseBanner>h2{
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+    width: auto;
+    align-items: center;
+}
+
+#courseBanner>section{
+    display: flex;
+    width: 30%;
+    align-items: center;
+}
+
+#courseBanner>section>input{
+    height: 5vh;
+    color: white;
+}
+
+#courseBanner>section>i{
+    background-color: tomato;
+    width: 10%;
+    height: 5vh;
+    color: white;
+    padding: 2% 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* card */
+
+.course-card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+  }
+
+  .course-card:hover{
+    transform:translateY(-20px);    
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
+  }
+  
+  .course-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+  }
+  
+  .course-details {
+    padding: 15px;
+  }
+  
+  .course-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .course-author {
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  .course-price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  #courseCard{
+    width: 80vw;
+    margin: auto;
+    padding: 10vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  #viewBtn{
+    width: 100%;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    border: none;
+  }
+
+  #viewBtn:hover{
+    cursor: pointer;
+
+}
